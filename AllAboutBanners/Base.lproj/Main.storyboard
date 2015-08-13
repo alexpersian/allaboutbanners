@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="AllAboutBanners" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TWB-T3-vX1">
+                                <rect key="frame" x="252" y="209" width="97" height="30"/>
+                                <color key="backgroundColor" red="0.96088308095932007" green="0.025208206847310066" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="RED BANNER">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="redButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="G31-9w-i6c"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i7Z-hO-bC1">
+                                <rect key="frame" x="247" y="247" width="106" height="30"/>
+                                <color key="backgroundColor" red="0.13512530922889709" green="0.11906231194734573" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="BLUE BANNER">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="blueButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="yAJ-K6-e00"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fzx-B8-6Ye">
+                                <rect key="frame" x="236" y="323" width="129" height="30"/>
+                                <color key="backgroundColor" red="0.99059373140335083" green="0.96420389413833618" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="YELLOW BANNER">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="yellowButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9uV-5Y-fcF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3VK-i3-N2K">
+                                <rect key="frame" x="235" y="361" width="130" height="30"/>
+                                <color key="backgroundColor" red="0.97539633512496948" green="0.69861376285552979" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="ORANGE BANNER">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="orangeButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="gH4-4j-0N5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="blv-PJ-PZ8">
+                                <rect key="frame" x="241" y="285" width="118" height="30"/>
+                                <color key="backgroundColor" red="0.29600954055786133" green="0.99805730581283569" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="GREEN BANNER">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="greenButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="0mI-wv-lc6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5jb-jq-euu">
+                                <rect key="frame" x="241" y="399" width="119" height="30"/>
+                                <color key="backgroundColor" red="0.17082008719444275" green="0.60188531875610352" blue="0.14051774144172668" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="BRUCE BANNER">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="bruceButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="8jZ-H1-d8y"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="blv-PJ-PZ8" firstAttribute="top" secondItem="i7Z-hO-bC1" secondAttribute="bottom" constant="8" symbolic="YES" id="22T-tH-v7B"/>
+                            <constraint firstItem="Fzx-B8-6Ye" firstAttribute="top" secondItem="blv-PJ-PZ8" secondAttribute="bottom" constant="8" symbolic="YES" id="7h6-KO-WqU"/>
+                            <constraint firstAttribute="centerX" secondItem="TWB-T3-vX1" secondAttribute="centerX" id="Chq-1W-vsX"/>
+                            <constraint firstItem="i7Z-hO-bC1" firstAttribute="centerX" secondItem="blv-PJ-PZ8" secondAttribute="centerX" id="HPD-fC-h7e"/>
+                            <constraint firstItem="5jb-jq-euu" firstAttribute="leading" secondItem="blv-PJ-PZ8" secondAttribute="leading" id="RZj-i2-IXk"/>
+                            <constraint firstItem="i7Z-hO-bC1" firstAttribute="centerX" secondItem="TWB-T3-vX1" secondAttribute="centerX" id="S2R-zu-lW9"/>
+                            <constraint firstItem="i7Z-hO-bC1" firstAttribute="top" secondItem="TWB-T3-vX1" secondAttribute="bottom" constant="8" symbolic="YES" id="YhQ-qc-7wQ"/>
+                            <constraint firstAttribute="centerY" secondItem="TWB-T3-vX1" secondAttribute="centerY" constant="76" id="Yx0-HU-ywo"/>
+                            <constraint firstItem="3VK-i3-N2K" firstAttribute="trailing" secondItem="Fzx-B8-6Ye" secondAttribute="trailing" id="iE8-kv-WgH"/>
+                            <constraint firstItem="3VK-i3-N2K" firstAttribute="top" secondItem="Fzx-B8-6Ye" secondAttribute="bottom" constant="8" symbolic="YES" id="mQD-YN-NQZ"/>
+                            <constraint firstItem="5jb-jq-euu" firstAttribute="top" secondItem="3VK-i3-N2K" secondAttribute="bottom" constant="8" id="n63-ET-eah"/>
+                            <constraint firstItem="Fzx-B8-6Ye" firstAttribute="centerX" secondItem="blv-PJ-PZ8" secondAttribute="centerX" id="ptR-Yc-Pd2"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
