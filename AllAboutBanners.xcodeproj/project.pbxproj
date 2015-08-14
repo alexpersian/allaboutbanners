@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AFBC6ABD6EC3C5DDEBA77F58 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB8A3952DC833BAA277147B /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		EA5707BB1B7D03550034AD8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5707BA1B7D03550034AD8B /* AppDelegate.swift */; };
 		EA5707BD1B7D03550034AD8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5707BC1B7D03550034AD8B /* ViewController.swift */; };
 		EA5707C01B7D03550034AD8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA5707BE1B7D03550034AD8B /* Main.storyboard */; };
 		EA5707C21B7D03550034AD8B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA5707C11B7D03550034AD8B /* Images.xcassets */; };
 		EA5707C51B7D03550034AD8B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA5707C31B7D03550034AD8B /* LaunchScreen.xib */; };
 		EA5707D11B7D03550034AD8B /* AllAboutBannersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5707D01B7D03550034AD8B /* AllAboutBannersTests.swift */; };
+		EAED3BEA1B7D86A700413D5F /* BRYXBanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAED3BE91B7D86A700413D5F /* BRYXBanner.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,8 +27,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1EB8A3952DC833BAA277147B /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		83414BD30D27DB502BB1567E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		EA5707B51B7D03550034AD8B /* AllAboutBanners.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllAboutBanners.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA5707B91B7D03550034AD8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA5707BA1B7D03550034AD8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,7 +37,7 @@
 		EA5707CA1B7D03550034AD8B /* AllAboutBannersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllAboutBannersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA5707CF1B7D03550034AD8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA5707D01B7D03550034AD8B /* AllAboutBannersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllAboutBannersTests.swift; sourceTree = "<group>"; };
-		F36D307E5B9D491BC1DE452C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		EAED3BE91B7D86A700413D5F /* BRYXBanner.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BRYXBanner.framework; path = Carthage/Build/iOS/BRYXBanner.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFBC6ABD6EC3C5DDEBA77F58 /* Pods.framework in Frameworks */,
+				EAED3BEA1B7D86A700413D5F /* BRYXBanner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,19 +59,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		87EB38B84D5CD66E050F54D0 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				83414BD30D27DB502BB1567E /* Pods.debug.xcconfig */,
-				F36D307E5B9D491BC1DE452C /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		E52F9995F8ABED32A48BB2B0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1EB8A3952DC833BAA277147B /* Pods.framework */,
+				EAED3BE91B7D86A700413D5F /* BRYXBanner.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -84,7 +73,6 @@
 				EA5707B71B7D03550034AD8B /* AllAboutBanners */,
 				EA5707CD1B7D03550034AD8B /* AllAboutBannersTests */,
 				EA5707B61B7D03550034AD8B /* Products */,
-				87EB38B84D5CD66E050F54D0 /* Pods */,
 				E52F9995F8ABED32A48BB2B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -143,12 +131,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA5707D41B7D03550034AD8B /* Build configuration list for PBXNativeTarget "AllAboutBanners" */;
 			buildPhases = (
-				9D7C95919018367DE1C9AF76 /* Check Pods Manifest.lock */,
 				EA5707B11B7D03550034AD8B /* Sources */,
 				EA5707B21B7D03550034AD8B /* Frameworks */,
 				EA5707B31B7D03550034AD8B /* Resources */,
-				B07CD47A4BCD659876FF7A14 /* Embed Pods Frameworks */,
-				09A0642FC2D4CD9E887727E3 /* Copy Pods Resources */,
+				EAED3BEB1B7D86B000413D5F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -235,50 +221,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		09A0642FC2D4CD9E887727E3 /* Copy Pods Resources */ = {
+		EAED3BEB1B7D86B000413D5F /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/BRYXBanner.framework",
 			);
-			name = "Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9D7C95919018367DE1C9AF76 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		B07CD47A4BCD659876FF7A14 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -413,9 +368,12 @@
 		};
 		EA5707D51B7D03550034AD8B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83414BD30D27DB502BB1567E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = AllAboutBanners/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,9 +382,12 @@
 		};
 		EA5707D61B7D03550034AD8B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F36D307E5B9D491BC1DE452C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = AllAboutBanners/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
